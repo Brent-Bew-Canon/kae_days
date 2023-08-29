@@ -1,7 +1,31 @@
 /* Styles imported from React project */
 
+.theme-blue {
+    background-color: #03989e
+}
+
+.theme-green {
+    background-color: #488a4c
+}
+
+.theme-pink {
+    background-color: #ffaa6e
+}
+
+.theme-yellow {
+    background-color: #ebdd2e
+}
+
+.theme-grey {
+    background-color: #e2e2e4;
+}
+
+.theme-dark {
+    background-color: #3f5d6e;
+}
+
 #hero-flex {
-    background-image: url('../../assets/landscape.jpg');
+    background-image: url('../../assets/landscape2.jpg');
     background-size: cover;
     height: 40vw;
     background-position-x: 70%;
