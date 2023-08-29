@@ -1,92 +1,31 @@
-.round-img {
-    border-radius: 50%;
+/* Styles imported from React project */
+
+#hero-flex {
+    background-image: url('../../assets/landscape.jpg');
+    background-size: cover;
+    height: 40vw;
+    background-position-x: 70%;
 }
 
-.constrain-img {
-    width: 20vw !important;
+.hero-heading {
+    font-size: 4vw;
+    padding: 1.5vw;
 }
 
-.constrain-img-height {
-    height: 20vw !important;
+.hero-cta {
+    font-size: 2vw;
 }
 
-.constrain-img-lg {
-    width: 45vw;
+.link {
+    text-decoration: none;
+    color: rgb(28, 187, 255);
 }
 
-.constrain-img-height-lg {
-    width: 45vw;
+.featurette-heading {
+    letter-spacing: -.05rem;
 }
 
-.constrain-img-tall {
-    height: 35vw;
-    width: 30vw;
-}
-
-.intro-col {
-    margin-right: 5%
-}
-
-#hero-p {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    font-size: 20px;
-    font-weight: 200;
-    color: black;
-    background-color: white;
-    border-radius: 10px
-}
-
-
-.big-p {
-    font-size: 30px;
-    font-weight: 200;
-}
-
-.med-p {
-    font-size: 1.1vw;
-    font-weight: 400;
-}
-
-.big-title {
-    font-size: 50px;
-    padding-bottom: 3%;
-}
-
-.custom-card {
-    border: none !important;
-}
-
-.center-text {
-    text-align: center;
-}
-
-
-.container1 {
-    display: inline-flex;
-    margin: 3%;
-}
-
-.col1 {
-    flex-grow: .5;
-    padding-right: 5%;
-}
-
-.col2 {
-    flex-grow: .5;
-    padding-right: 5%;
-    font-size: 145%;
-}
-
-.col3 {
-    flex-grow: .5;
-    padding-right: 10%;
-    padding-left: 10%;
-    font-size: 145%;
-}
-
-.container2 {
+.mtn {
     background-image: url('../../assets/mts1.jpg');
     background-size: 250vh 75vh;
     background-position: 50% 65%;
@@ -94,9 +33,7 @@
     height: 48vh;
     display: flex;
     align-items: center;
-
 }
-
 
 .section-btn {
     background-color: white;
@@ -105,45 +42,6 @@
     font-size: 250%;
 }
 
-.cta-btn {
-    font-size: 30px;
-}
-
-.custom-a {
-    text-decoration: none;
-    color: rgb(141, 80, 197);
-}
-
-.mod-section {
-    height: 60vw;
-}
-
-.purple {
-    background-color: rgb(190, 140, 237);
-}
-
-/* Styles for home page modalities section */
-.card-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    margin: 2% 2% 2% 2%
-}
-
-.card-wrapper img {
-    max-width: 100%;
-}
-
-.mod1,
-.mod2,
-.mod3 {
-    display: flex;
-    flex-direction: column;
-    padding: 1% 1% 1% 1%;
-}
-
-/* Styles for modality pages like EMDR, DBT, etc */
 .modality {
     background-color: white;
 }
@@ -152,4 +50,19 @@
     background-image: url("../../assets/succulent3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1200px) {
+    #hero-flex {
+        height: 50vw
+    }
+
+    .hero-heading {
+        font-size: 4vw;
+        padding: 2.5vw;
+    }
+
+    .hero-cta {
+        font-size: 2.5vw;
+    }
 }

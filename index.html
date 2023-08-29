@@ -6,153 +6,177 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAE Days Therapy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link rel="stylesheet" href="develop/css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/Kae Days.png" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    Kae Days Counseling
+        <nav class='pt-2 bg-light'>
+            <div class='mx-auto text-center'>
+                <a href="index.html" class='text-decoration-none navbar-brand  fs-3 mx-auto'>
+                    <img src='./assets/Kae Days.png' alt="" class='d-inline-block align-text-top mx-2' width="45"
+                        height="40" />
+                    KAE Days Counseling
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Modalities
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="emdr.html">EMDR</a></li>
-                                <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
-                                <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="resources.html">Free Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="navbar navbar-expand-lg navbar-light text-primary " id="mainNav">
+                <div class="container px-4 px-lg-5">
+                    <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                        <ul class="navbar-nav mx-auto fs-4">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggl " href="" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Modalities
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="emdr.html">EMDR</a></li>
+                                    <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
+                                    <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="resources.html"
+                                    id="newSearch">Resources</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="contact.html" href=""
+                                    id="newSearch">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="blog.html" href=""
+                                    id="newSearch">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="text-bg-secondary" id="hero">
-        <div class="container pt-4 pb-4">
-            <div class="row">
-                <div class="col-lg-7 intro-col">
-                    <h1 class="center-text">EMDR Therapist Kaelynn Buchanan</h1>
-                    <p id="hero-p">Your therapeutic journey begins here! I'm EMDR Certified and believe in helping
-                        individuals come
-                        to
-                        terms with their lives and then change them. You will see results after 1-3 sessions with
-                        <br><br>
-                        Start the road to healing and recovery here. Working with all types of people including youth,
-                        adults, and children. <br><br>
-                        Experience the change of life that comes from freeing yourself from your past.
-                    </p>
-                    <a href="contact.html" class="btn btn-primary btn-lg mx-auto d-grid col-6">Schedule
-                        Now</a>
-                </div>
-                <div class="col-lg-4">
-                    <img src="assets/profile.jpg" alt="" class="w-100 round-img  constrain-img-height constrain-img">
+    <div class="" id="hero">
+        <div id="hero-flex" class='d-flex text-center justify-content-center align-items-center'>
+            <div class=''>
+                <h1 class='text-center bg-white rounded hero-heading fw-light text-dark'>EMDR Therapy</h1>
+                <div>
+                    <a class='text-center btn btn-secondary rounded mt-3 hero-cta' href='contact.html'>Schedule Today
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="assets/succulent 1.jpg" alt="" class=" img-fluid">
-            </div>
-            <div class="col-lg-6 ">
-                <h2 class="big-title center-text">Quality Care</h2>
-                <p class="med-p">
-                    I am dedicated to providing clinical care to people who are seriously messed up. It
-                    doesn't
-                    matter what
-                    your past has been, we can solve it together. <br><br>
-                    We focus on client objectives and the first session we sit down and talk about your goals for
-                    therapy.
-                    We then work tireleslly together to get that goal accomplished</p>
-            </div>
-        </div>
-    </div>
+        <div class='container mt-4'>
+            <div class='row'>
+                <div class="py-5 mb-4 rounded-3 col-lg-12">
+                    <div class="container-fluid py-3">
+                        <h1 class="display-5 fw-bold text-center pb-4 ">Quality Care</h1>
+                        <p class="fs-4"> Your therapeutic journey begins here! Hi! I'm Kaelynn, an EMDR Certified
+                            therapist, and I believe in helping individuals come to terms with their lives and then
+                            change them. You can see results after 1-3 sessions with EMDR Therapy.</p>
+                        <p class="fs-4"> Start the road to healing and recovery here. Working with all types of
+                            people including youth, adults, and children. Experience the change of life that comes from
+                            freeing yourself from your past.</p>
+                        <div class='text-center pt-4'>
+                            <a class="btn btn-primary btn-lg" type="button" href="resources.html">See Free Resources
+                            </a>
+                        </div>
 
-    <div class="container2">
-        <button type="button" class=" section-btn col-4 mx-auto p-4">Modalities
-        </button>
-    </div>
-
-    <div class="card-wrapper ">
-        <div class="mod1 ">
-            <img src="/assets/girl.jpg" alt="" class="rounded-top">
-            <div class="border border-2 rounded-bottom p-3">
-                <h3 class="text-center">EMDR</h3>
-                <p>A new therapy that involves eye movement to stimulate both sides of the brain. This technique is
-                    great
-                    for those with deep set traumas who need help getting over them.
-                    <br><br>
-                    We go on a journey to the start of the emotional pain, clearing out the gunk and letting you
-                    heal of
-                    those difficult emotions. Discover the peace that can come from EMDR therapy.
-                </p>
-                <a href="emdr.html" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="mod2"> <img src="assets/notebook.jpg" alt="" class="rounded-top">
-            <div class="border border-2 rounded-bottom p-3">
-                <h3 class="text-center ">DBT</h3>
-                <p>A new therapy that involves eye movement to stimulate both sides of the brain. This technique is
-                    great
-                    for those with deep set traumas who need help getting over them.
-                    <br><br>
-                    We go on a journey to the start of the emotional pain, clearing out the gunk and letting you heal of
-                    those difficult emotions. Discover the peace that can come from EMDR therapy.
-                </p>
-                <a href="dbt.html" class="btn btn-primary btn-lg">Learn More</a>
+
+        <div class='container-fluid mtn mb-5'>
+            <div class='row mx-auto'>
+                <div class='col-lg-12 '>
+                    <div class=''>
+                        <p class='section-btn p-4'>Modalities</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="mod3"> <img src="assets/meditate.jpg" alt="" class="rounded-top">
-            <div class="border border-2 rounded-bottom p-3">
-                <h3 class="text-center">CBT</h3>
-                <p>A new therapy that involves eye movement to stimulate both sides of the brain. This technique is
-                    great
-                    for those with deep set traumas who need help getting over them.
-                    <br><br>
-                    We go on a journey to the start of the emotional pain, clearing out the gunk and letting you heal of
-                    those difficult emotions. Discover the peace that can come from EMDR therapy.
-                </p>
-                <a href="cbt.html" class="btn btn-primary btn-lg">Learn More</a>
+
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/girl.jpg" alt="" class='mb-3' />
+                        <h2 class='text-center'>EMDR</h2>
+                        <div class="card-body">
+                            <p class="fs-5">A new therapy that involves eye movement to stimulate both sides of the
+                                brain. This
+                                technique is great for those with deep set traumas who need help getting over them.
+                            </p>
+                            <p class="fs-5">
+                                We go on a journey to the start of the emotional pain, clearing out the gunk and letting
+                                you
+                                heal of those difficult emotions. Discover the peace that can come from EMDR therapy.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mx-auto">
+                                    <a type="button" class="btn btn-primary" href="emdr.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/meditate.jpg" alt="" class='mb-3' />
+                        <h2 class='text-center'>DBT</h2>
+                        <div class="card-body">
+                            <p class="fs-5">Introducing DBT, a transformative therapeutic approach that combines
+                                cognitive behavioral techniques with mindfulness practices.
+                            </p>
+                            <p class="fs-5">
+                                This method is particularly effective for individuals dealing with intense emotional
+                                struggles and aims to provide them with valuable coping skills. DBT offers a path toward
+                                self-discovery and healing.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mx-auto">
+                                    <a type="button" class="btn btn-primary" href="dbt.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/notebook.jpg" alt="" class='mb-3' />
+                        <h2 class='text-center'>CBT</h2>
+                        <div class="card-body">
+                            <p class="fs-5">CBT engages cognition to address various issues. This method is valuable for
+                                those with entrenched traumas who seek recovery support.
+                            </p>
+                            <p class="fs-5">
+                                We embark on a path toward the core of emotional distress, eliminating obstacles and
+                                fostering healing from challenging emotions. Uncover the serenity that arises from CBT
+                                therapy.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mx-auto">
+                                    <a type="button" class="btn btn-primary" href="cbt.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container2">
-        <a href="contact.html" type="button" class="cta-btn col-4 mx-auto p-4 btn btn-primary">Check Availability
-        </a>
-    </div>
+        <footer class="mx-0 mt-4">
+            <div class="mtn container-fluid">
+                <a href="contact.html" type="button" class="col-4 mx-auto p-4 btn btn-primary fs-3">Check Availability
+                </a>
+            </div>
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

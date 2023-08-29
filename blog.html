@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - KAE Days</title>
+    <title>Blog - KAE Days Therapy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="develop/css/styles.css">
@@ -13,74 +13,85 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/Kae Days.png" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    Kae Days Counseling
+        <nav class='pt-2 bg-light'>
+            <div class='mx-auto text-center'>
+                <a href="index.html" class='text-decoration-none navbar-brand  fs-3 mx-auto'>
+                    <img src='./assets/Kae Days.png' alt="" class='d-inline-block align-text-top mx-2' width="45"
+                        height="40" />
+                    KAE Days Counseling
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Modalities
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="emdr.html">EMDR</a></li>
-                                <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
-                                <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="resources.html">Free Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="navbar navbar-expand-lg navbar-light text-primary " id="mainNav">
+                <div class="container px-4 px-lg-5">
+                    <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                        <ul class="navbar-nav mx-auto fs-4">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggl " href="" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Modalities
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="emdr.html">EMDR</a></li>
+                                    <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
+                                    <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="resources.html"
+                                    id="newSearch">Resources</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="contact.html" href=""
+                                    id="newSearch">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="blog.html" href=""
+                                    id="newSearch">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="text-bg-secondary" id="hero">
-        <div class="container pt-4 pb-4">
+    <main>
+        <div class="container ">
+            <div class="row pt-4 pb-4 mt-4">
+                <div class="col">
+                    <h1 class="text-center bg-info text-white py-4 rounded">Blog</h1>
+                </div>
+            </div>
+            <!-- Blog Items -->
             <div class="row">
-                <div class="col intro-col">
-                    <h1 class="center-text">Blog</h1>
+                <div class="col-lg-2">
+                    <a href="/7_misconceptions_about_therapy"><img src='./assets/succulent 1.jpg' alt=""
+                            class=" img-fluid" />
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <p class="mb-2">August 21, 2023</p>
+                    <a class="center-text fs-3 text-decoration-none" href="blog/misconceptions_about_therapy.html">7
+                        Misconceptions About Therapy</a>
+                    <p class="fs-3">
+                        Some people think that therapy involves lying on a bed and crying to a stranger with a
+                        clipboard.
+                        However, therapy actually looks like...</p>
                 </div>
             </div>
         </div>
-    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
 
-    <div class="container1">
-        <div class="col-lg-2 me-4">
-            <a href="blog/what_real_therapy_looks_like.html"><img src="assets/succulent 1.jpg" alt=""
-                    class=" img-fluid"></a>
+    <footer class="mx-0 mt-4">
+        <div class="mtn container-fluid">
+            <a href="contact.html" type="button" class="col-4 mx-auto p-4 btn btn-primary fs-3">Check Availability
+            </a>
         </div>
-        <div class="col-lg-8">
-            <p class="mb-2">April 5, 2023</p>
-            <a href="blog/what_real_therapy_looks_like.html" class="center-text fs-3">What Real Therapy Looks Like</a>
-            <p class="fs-3">
-                Many people think that therapy involves lying on a bed and crying to a stranger with a clipboard.
-                However, therapy actually looks like...</p>
-        </div>
-    </div>
-
-    <div class="container2">
-        <a href="contact.html" type="button" class="cta-btn col-4 mx-auto p-4 btn btn-primary">Check Availability
-        </a>
-    </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

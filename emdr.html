@@ -14,41 +14,43 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/Kae Days.png" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    Kae Days Counseling
+        <nav class='pt-2 bg-light'>
+            <div class='mx-auto text-center'>
+                <a href="index.html" class='text-decoration-none navbar-brand  fs-3 mx-auto'>
+                    <img src='./assets/Kae Days.png' alt="" class='d-inline-block align-text-top mx-2' width="45"
+                        height="40" />
+                    KAE Days Counseling
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Modalities
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">EMDR</a></li>
-                                <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
-                                <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="resources.html">Free Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="navbar navbar-expand-lg navbar-light text-primary " id="mainNav">
+                <div class="container px-4 px-lg-5">
+                    <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                        <ul class="navbar-nav mx-auto fs-4">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggl " href="" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Modalities
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="emdr.html">EMDR</a></li>
+                                    <li><a class="dropdown-item" href="dbt.html">DBT</a></li>
+                                    <li><a class="dropdown-item" href="cbt.html">CBT</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="resources.html"
+                                    id="newSearch">Resources</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="contact.html" href=""
+                                    id="newSearch">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link  text-decoration-none" href="blog.html" href=""
+                                    id="newSearch">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -148,13 +150,14 @@
                 </div>
             </div>
         </div>
+    </main>
 
-
-        <div class="container2">
-            <a href="contact.html" type="button" class="cta-btn col-4 mx-auto p-4 btn btn-primary">Check Availability
+    <footer class="mx-0 mt-4">
+        <div class="mtn container-fluid">
+            <a href="contact.html" type="button" class="col-4 mx-auto p-4 btn btn-primary fs-3">Check Availability
             </a>
         </div>
-    </main>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
